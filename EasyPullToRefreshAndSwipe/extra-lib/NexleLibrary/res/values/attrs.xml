@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="font" format="string" />
+
+    <!-- ============= -->
+    <!-- Button styles -->
+    <!-- ============= -->
+
+
+    <!-- Small Button style. -->
+    <declare-styleable name="FlatButton">
+        <attr name="colorPressed" format="color" />
+        <attr name="colorNormal" format="color" />
+        <attr name="cornerRadius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="round_background" format="boolean" />
+        <attr name="is_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+    <declare-styleable name="FontableTextView">
+        <attr name="font" />
+        <attr name="fontSizeUnitPt" format="float" />
+        <attr name="set_opacity_click" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="ClearableEditText">
+        <attr name="font" />
+    </declare-styleable>
+    <declare-styleable name="FontableButton">
+        <attr name="font" />
+        <attr name="button_radius" format="dimension" />
+        <attr name="opacity_click" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="AutoScaleTextView">
+        <attr name="minTextSize" format="dimension" />
+        <attr name="text" format="string" />
+    </declare-styleable>
+
+    <!-- For Tab Item -->
+    <declare-styleable name="BottomTabItem">
+        <attr name="text_title" format="string" />
+        <attr name="text_font" format="string" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text_bg_press" format="color|reference" />
+        <attr name="text_bg_normal" format="color|reference" />
+        <attr name="icon_bg_normal" format="color|reference" />
+        <attr name="icon_bg_press" format="color|reference" />
+        <attr name="className" format="string" />
+        <attr name="hasNotify" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="BottomTabsView">
+        <attr name="isPhone" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="handle" format="reference" />
+        <attr name="content" format="reference" />
+        <attr name="bottomView" format="reference" />
+        <attr name="expandHeight" format="float" />
+    </declare-styleable>
+    <declare-styleable name="ArrowLayout">
+        <attr name="arrowSide" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="both" value="2" />
+        </attr>
+        <attr name="arrowColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="FrameLayoutWithBluredBackground">
+        <attr name="blurRadius" format="float" />
+    </declare-styleable>
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+    <declare-styleable name="ItemBottomTabTablet">
+        <attr name="text_title" />
+    </declare-styleable>
+    <declare-styleable name="ScoreRowView">
+        <attr name="row_type">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

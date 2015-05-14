@@ -1,0 +1,100 @@
+int attr arrowColor 0x7f01001e
+int attr arrowSide 0x7f01001d
+int attr blurRadius 0x7f01001f
+int attr border_color 0x7f010006
+int attr border_width 0x7f010005
+int attr bottomView 0x7f01001b
+int attr button_radius 0x7f01000b
+int attr className 0x7f010016
+int attr colorNormal 0x7f010002
+int attr colorPressed 0x7f010001
+int attr content 0x7f01001a
+int attr cornerRadius 0x7f010003
+int attr corner_radius 0x7f010004
+int attr dividerWidth 0x7f010020
+int attr expandHeight 0x7f01001c
+int attr font 0x7f010000
+int attr fontSizeUnitPt 0x7f010009
+int attr handle 0x7f010019
+int attr hasNotify 0x7f010017
+int attr icon_bg_normal 0x7f010014
+int attr icon_bg_press 0x7f010015
+int attr isPhone 0x7f010018
+int attr is_oval 0x7f010008
+int attr minTextSize 0x7f01000d
+int attr opacity_click 0x7f01000c
+int attr round_background 0x7f010007
+int attr row_type 0x7f010021
+int attr set_opacity_click 0x7f01000a
+int attr text 0x7f01000e
+int attr text_bg_normal 0x7f010013
+int attr text_bg_press 0x7f010012
+int attr text_font 0x7f010010
+int attr text_size 0x7f010011
+int attr text_title 0x7f01000f
+int color black 0x7f020001
+int color blue 0x7f020000
+int dimen activity_horizontal_margin 0x7f030000
+int dimen activity_vertical_margin 0x7f030001
+int id both 0x7f050000
+int id left 0x7f050001
+int id right 0x7f050002
+int string action_settings 0x7f040002
+int string app_name 0x7f040000
+int string hello_world 0x7f040001
+int string no_internet_message 0x7f040003
+int[] styleable ArrowLayout { 0x7f01001d, 0x7f01001e }
+int styleable ArrowLayout_arrowColor 1
+int styleable ArrowLayout_arrowSide 0
+int[] styleable AutoScaleTextView { 0x7f01000d, 0x7f01000e }
+int styleable AutoScaleTextView_minTextSize 0
+int styleable AutoScaleTextView_text 1
+int[] styleable BottomTabItem { 0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016, 0x7f010017 }
+int styleable BottomTabItem_className 7
+int styleable BottomTabItem_hasNotify 8
+int styleable BottomTabItem_icon_bg_normal 5
+int styleable BottomTabItem_icon_bg_press 6
+int styleable BottomTabItem_text_bg_normal 4
+int styleable BottomTabItem_text_bg_press 3
+int styleable BottomTabItem_text_font 1
+int styleable BottomTabItem_text_size 2
+int styleable BottomTabItem_text_title 0
+int[] styleable BottomTabsView { 0x7f010018 }
+int styleable BottomTabsView_isPhone 0
+int[] styleable ClearableEditText { 0x7f010000 }
+int styleable ClearableEditText_font 0
+int[] styleable FlatButton { 0x7f010001, 0x7f010002, 0x7f010003 }
+int styleable FlatButton_colorNormal 1
+int styleable FlatButton_colorPressed 0
+int styleable FlatButton_cornerRadius 2
+int[] styleable FontableButton { 0x7f010000, 0x7f01000b, 0x7f01000c }
+int styleable FontableButton_button_radius 1
+int styleable FontableButton_font 0
+int styleable FontableButton_opacity_click 2
+int[] styleable FontableTextView { 0x7f010000, 0x7f010009, 0x7f01000a }
+int styleable FontableTextView_font 0
+int styleable FontableTextView_fontSizeUnitPt 1
+int styleable FontableTextView_set_opacity_click 2
+int[] styleable FrameLayoutWithBluredBackground { 0x7f01001f }
+int styleable FrameLayoutWithBluredBackground_blurRadius 0
+int[] styleable HorizontalListView { 0x010100e0, 0x01010129, 0x010103a5, 0x7f010020 }
+int styleable HorizontalListView_android_divider 1
+int styleable HorizontalListView_android_fadingEdgeLength 0
+int styleable HorizontalListView_android_requiresFadingEdge 2
+int styleable HorizontalListView_dividerWidth 3
+int[] styleable ItemBottomTabTablet { 0x7f01000f }
+int styleable ItemBottomTabTablet_text_title 0
+int[] styleable RoundedImageView { 0x0101011d, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008 }
+int styleable RoundedImageView_android_scaleType 0
+int styleable RoundedImageView_border_color 3
+int styleable RoundedImageView_border_width 2
+int styleable RoundedImageView_corner_radius 1
+int styleable RoundedImageView_is_oval 5
+int styleable RoundedImageView_round_background 4
+int[] styleable ScoreRowView { 0x7f010021 }
+int styleable ScoreRowView_row_type 0
+int[] styleable SlidingUpPanelLayout { 0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c }
+int styleable SlidingUpPanelLayout_bottomView 2
+int styleable SlidingUpPanelLayout_content 1
+int styleable SlidingUpPanelLayout_expandHeight 3
+int styleable SlidingUpPanelLayout_handle 0

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf0f1"
+    android:orientation="vertical"
+    android:padding="@dimen/container_padding" >
+
+    <com.handmark.pulltorefresh.library.PullAndLoadSwipeListView
+        android:id="@+id/lstView"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice"
+        android:divider="#000000"
+        android:dividerHeight="1dp"
+        android:fadingEdge="none"
+        app1:swipeBackView="@+id/swp_lower"
+        app1:swipeCloseAllItemsWhenMoveList="true"
+        app1:swipeFrontView="@+id/swp_upper"
+        app1:swipeMode="right"
+        app1:swipeOpenOnLongPress="false"
+        app1:swipeRestrictedByOffset="true"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrMode="pullFromStart" />
+
+</LinearLayout>
